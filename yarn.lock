@@ -1766,6 +1766,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@owsas/nominatim-js@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@owsas/nominatim-js/-/nominatim-js-1.0.1.tgz#5360860c789a160f6e6713bb3cfa90a20bec8d2d"
+  integrity sha512-iGZHKfg6+CIU9ahMrGaLUT/7sGE0//lwq07ciq4wUsSc64KH1wIS16WJipsh7t1kwfaOJ5H1pb3mEi0lErkC/A==
+
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.3":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.4.tgz#df0d0d855fc527db48aac93c218a0bf4ada41f99"
@@ -3527,6 +3532,13 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
+
+cross-fetch@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
+  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
+  dependencies:
+    node-fetch "2.6.7"
 
 cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
@@ -7445,7 +7457,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.8.1:
+prop-types@^15.6.0, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -7551,6 +7563,13 @@ react-app-polyfill@^3.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
+
+react-currency-format@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-currency-format/-/react-currency-format-1.1.0.tgz#efef7f18045fc09a987de270b144f5eec8801dab"
+  integrity sha512-WWrEOIp/3GbDSk1wlhFXaBc7IHGT3IwL306DHbGP3GVr4YFa0iS5hHPbKjHa0haruGL4Ly+WG4/5jBHpUtgqZg==
+  dependencies:
+    prop-types "^15.6.0"
 
 react-dev-utils@^12.0.0:
   version "12.0.0"
