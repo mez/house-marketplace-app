@@ -1,7 +1,7 @@
 # Learning React 2022 - House Marketplace Project
 
 
-### If you want to run this app make sure you have a firebase.config.js with your credentials from firebase!
+### If you want to run this app make sure you have a firebase.config.js in your `src` directory with your credentials from firebase!
 
 ```
 // Import the functions you need from the SDKs you need
